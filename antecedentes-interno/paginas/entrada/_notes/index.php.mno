@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Buscar" value="name:id_solicitud;datatype:int,name:dni;datatype:string,name:apellido;datatype:string,name:nombre;datatype:string,name:domicilio;datatype:string,name:departamento;datatype:string,name:localidad;datatype:string,name:sexo;datatype:string,name:dependencia;datatype:string,name:prontuario;datatype:string,name:antecedente;datatype:string,name:usuario;datatype:string" />
+</info>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Editar_Solicitante" value="name:IdPadron;datatype:int,name:Apellido;datatype:string,name:Nombre;datatype:string,name:Clase;datatype:int,name:Nacionalidad;datatype:string,name:DocumentoNro;datatype:int,name:IdPais;datatype:int,name:Genero;datatype:string,name:EstadoCivil;datatype:string,name:Profesion;datatype:string,name:Direccion;datatype:string,name:Antecedente;datatype:string,name:IdProntuarioTipo;datatype:int,name:ProntuarioNro;datatype:int,name:Observaciones;datatype:blob" />
+	<infoitem key="UD_Nacionalidad" value="name:IdPais;datatype:int,name:Pais;datatype:string" />
+	<infoitem key="UD_TipoProntuario" value="name:IdProntuarioTipo;datatype:int,name:ProntuarioTipo;datatype:string" />
+</info>

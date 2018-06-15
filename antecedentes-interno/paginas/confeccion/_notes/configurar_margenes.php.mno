@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Margenes" value="name:id;datatype:int,name:izquierdo;datatype:real,name:superior;datatype:real" />
+</info>

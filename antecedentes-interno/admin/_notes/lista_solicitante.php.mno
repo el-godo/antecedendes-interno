@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Padron" value="name:Apellido;datatype:string,name:Nombre;datatype:string,name:DocumentoNro;datatype:int" />
+	<infoitem key="UD_Padron_DNI" value="name:Apellido;datatype:string,name:Nombre;datatype:string,name:DocumentoNro;datatype:int,name:IdPadron;datatype:int" />
+</info>

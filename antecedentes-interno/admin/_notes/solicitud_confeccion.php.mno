@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Solicitudes" value="name:id_solicitud;datatype:int,name:dni;datatype:string,name:apellido;datatype:string,name:nombre;datatype:string,name:domicilio;datatype:string,name:profesion;datatype:string,name:tipo_prontuario;datatype:int,name:prontuario;datatype:string,name:estado_solicitud;datatype:string,name:fecha_solicitada;datatype:date,name:hora_solicitada;datatype:time,name:clase;datatype:string,name:nacionalidad;datatype:string,name:estado_civil;datatype:string,name:solicitado_por;datatype:string,name:usuario;datatype:string,name:ip_solicitante;datatype:string,name:ip_confeccion;datatype:string" />
+</info>

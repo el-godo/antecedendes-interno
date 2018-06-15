@@ -1,0 +1,188 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pl" xml:lang="pl">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="author" content="Paweł 'kilab' Balicki - kilab.pl" />
+<title>SimpleAdmin</title>
+<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="../css/navi.css" media="screen" />
+<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+
+<script type="text/javascript">
+$(function(){
+	$(".box .h_title").not(this).next("ul").hide("normal");
+	$(".box .h_title").not(this).next("#home").show("normal");
+	$(".box").children(".h_title").click( function() { $(this).next("ul").slideToggle(); });
+});
+</script>
+</head>
+<body>
+<div class="wrap">
+	<div id="header">
+		<div id="top">
+			
+			<div class="right">
+				<div class="align-right">
+					<p>Sistema de Gesti&oacute;n de Armamentos y Municiones **** Polic&iacute;a de Catamarca - Ministerio de Gobierno y Justicia</p>
+				</div>
+			</div>
+		</div>
+		<div id="nav">
+			<ul>
+				<li class="upp"><a href="#">Alta</a>
+					<ul>
+						<li>&#8250; <a href="../paginas/alta_arma.php">Arma Corta</a></li>
+                        <li>&#8250;<a href="../paginas/alta_armalarga.php">Arma Larga</a></li>
+						<li>&#8250; <a href="../paginas/alta_calibre.php">Calibre</a></li>
+						<li>&#8250; <a href="../paginas/alta_dependencia.php">Dependencia</a></li>
+						<li>&#8250; <a href="../paginas/alta_marca.php">Marca</a></li>
+                        <li>&#8250; <a href="../paginas/portador_arma.php">Portador</a></li>
+                        <li>&#8250; <a href="../paginas/alta_tipoarma.php">Tipo de Arma Corta</a></li>
+                        <li>&#8250; <a href="../paginas/alta_tipoarmalarga.php">Tipo de Arma Larga</a></li>
+					</ul>
+				</li>
+				<li class="upp"><a href="#">Editar</a>
+					<ul>
+						<li>&#8250; <a href="../paginas/buscararma.php">Arma Corta</a></li>
+                        <li>&#8250; <a href="../paginas/buscararmalarga.php">Arma Larga</a></li>
+						<li>&#8250; <a href="../paginas/buscarcalibre.php">Calibre</a></li>
+						<li>&#8250; <a href="../paginas/buscardependencia.php">Dependencia</a></li>
+						<li>&#8250; <a href="../paginas/buscarmarca.php">Marca</a></li>
+                        <li>&#8250; <a href="../paginas/buscarportador.php">Portador</a></li>
+                        <li>&#8250; <a href="../paginas/buscartipoarma.php">Tipo de Arma</a></li>
+					</ul>
+				</li>
+                <li class="upp"><a href="#">Movimientos Armas Cortas</a>
+					<ul>
+						<li>&#8250; <a href="../paginas/asignar_arma.php">Asignación de Arma</a></li>
+                        <li>&#8250; <a href="../paginas/baja_arma.php">Baja de Arma</a></li>
+						<li>&#8250; <a href="../paginas/extravida.php">Extravío de Arma</a></li>
+                        <li>&#8250; <a href="../paginas/reparacion.php">Reparación de Arma</a></li>
+                        <li>&#8250; <a href="">Secuestro de Arma</a></li>
+						<li>&#8250; <a href="">Sustracción de Arma</a></li>
+						</ul>
+				</li>
+                 <li class="upp"><a href="#">Movimientos Armas Larga</a>
+					<ul>
+						<li>&#8250; <a href="">Asignación de Arma</a></li>
+                        <li>&#8250; <a href="">Baja de Arma</a></li>
+						<li>&#8250; <a href="">Extravío de Arma</a></li>
+                        <li>&#8250; <a href="">Reparación de Arma</a></li>
+                        <li>&#8250; <a href="">Secuestro de Arma</a></li>
+						<li>&#8250; <a href="">Sustracción de Arma</a></li>
+						</ul>
+				</li>
+				<li class="upp"><a href="#">Consultas</a>
+					<ul>
+						<li>&#8250; <a href="../paginas/buscararma.php">Buscar Arma</a></li>
+						<li>&#8250; <a href="">Add new user</a></li>
+						<li>&#8250; <a href="">Lock users</a></li>
+					</ul>
+				</li>
+				<li class="upp"><a href="">Cerrar Sesión</a>
+					<ul>
+						<li>&#8250; <a href="login.php?logout=1">Salir del sistema</a></li>
+						
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="content">
+		<div id="sidebar">
+			<div class="box">
+				<div class="h_title">&#8250; Alta</div>
+				<ul id="home">
+					<li class="b1"><a class="icon view_page" href="../paginas/alta_arma.php">Arma Corta</a></li>
+                    <li class="b2"><a class="icon view_metra" href="../paginas/alta_armalarga.php">Arma Larga</a></li>
+					<li class="b1"><a class="icon report" href="../paginas/alta_calibre.php">Calibre</a></li>
+					<li class="b2"><a class="icon add_page" href="../paginas/alta_dependencia.php">Dependencia</a></li>
+					<li class="b1"><a class="icon config" href="../paginas/alta_marca.php">Marca</a></li>
+                    <li class="b2"><a class="icon portador" href="../paginas/portador_arma.php">Portador</a></li>
+                    <li class="b1"><a class="icon view_page" href="../paginas/alta_tipoarma.php">Tipo de Arma Corta</a></li>
+                  <li class="b2"><a class="icon view_metra" href="../paginas/alta_tipoarmalarga.php">Tipo de Arma Larga</a></li>
+				</ul>
+			</div>
+			
+			<div class="box">
+				<div class="h_title">&#8250; Editar</div>
+				<ul>
+					<li class="b1"><a class="icon view_page" href="../paginas/buscararma.php">Arma Corta</a></li>
+                    <li class="b2"><a class="icon view_metra" href="../paginas/buscararmalarga.php">Arma Larga</a></li>
+					<li class="b1"><a class="icon report" href="../paginas/buscarcalibre.php">Calibre</a></li>
+					<li class="b2"><a class="icon add_page" href="../paginas/buscardependencia.php">Dependencia</a></li>
+					<li class="b1"><a class="icon config" href="../paginas/buscarmarca.php">Marca</a></li>
+                    <li class="b2"><a class="icon portador" href="../paginas/buscarportador.php">Portador</a></li>
+                  <li class="b1"><a class="icon view_page" href="../paginas/buscartipoarma.php">Tipo de Arma</a></li>
+				</ul>
+			</div>
+			<div class="box">
+				<div class="h_title">&#8250; Movimientos Armas Cortas</div>
+				<ul>
+					<li class="b1"><a class="icon view_asignar" href="../paginas/asignar_arma.php">Asignación de Arma</a></li>
+                    <li class="b2"><a class="icon view_baja" href="../paginas/baja_arma.php">Baja de Arma</a></li>
+                     <li class="b1"><a class="icon view_extravio" href="../paginas/extravida.php">Extravío de Arma</a></li>
+                     <li class="b2"><a class="icon view_reparacion" href="../paginas/reparacion.php">Reparación de Arma</a></li>
+					<li class="b1"><a class="icon view_secuestro" href="">Secuestro de Arma</a></li>             
+                  <li class="b2"><a class="icon view_sustraccion" href="">Sustracción de Arma</a></li>
+				</ul>
+			</div>
+			<div class="box">
+				<div class="h_title">&#8250; Movimiento Armas Largas</div>
+				<ul>
+					<li class="b1"><a class="icon view_page" href="">Asignación de Arma</a></li>
+                    <li class="b2"><a class="icon add_user" href="">Baja de Arma</a></li>
+                     <li class="b1"><a class="icon add_user" href="">Extravío de Arma</a></li>
+                     <li class="b2"><a class="icon add_user" href="">Reparación de Arma</a></li>
+					<li class="b1"><a class="icon add_user" href="">Secuestro de Arma</a></li>             
+                  <li class="b2"><a class="icon add_user" href="">Sustracción de Arma</a></li>
+				</ul>
+			</div>
+            <div class="box">
+				<div class="h_title">&#8250; Consultas</div>
+				<ul>
+					<li class="b1"><a class="icon config" href="">Site configuration</a></li>
+					<li class="b2"><a class="icon contact" href="">Contact Form</a></li>
+				</ul>
+			</div>
+            <div class="box">
+				<div class="h_title">&#8250; Settings</div>
+				<ul>
+					<li class="b1"><a class="icon config" href="">Site configuration</a></li>
+					<li class="b2"><a class="icon contact" href="">Contact Form</a></li>
+				</ul>
+			</div>
+            <div class="box">
+				<div class="h_title">&#8250; Settings</div>
+				<ul>
+					<li class="b1"><a class="icon config" href="">Site configuration</a></li>
+					<li class="b2"><a class="icon contact" href="">Contact Form</a></li>
+				</ul>
+			</div>
+            <div class="box">
+				<div class="h_title">&#8250; Settings</div>
+				<ul>
+					<li class="b1"><a class="icon config" href="">Site configuration</a></li>
+					<li class="b2"><a class="icon contact" href="">Contact Form</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="main">
+		  <div class="full_w"><!-- TemplateBeginEditable name="EditRegion1" -->EditRegion1<!-- TemplateEndEditable --></div>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div id="footer">
+		<div class="left">
+			<p>© Policia de Catamarca - Área Informática</p>
+		</div>
+		<div class="right">
+			
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

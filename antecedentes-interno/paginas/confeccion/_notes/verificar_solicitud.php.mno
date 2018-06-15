@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Busqueda" value="name:IdPadron;datatype:int,name:Apellido;datatype:string,name:Nombre;datatype:string,name:Clase;datatype:int,name:DocumentoNro;datatype:int,name:IdPais;datatype:int,name:Genero;datatype:string,name:EstadoCivil;datatype:string,name:Profesion;datatype:string,name:Direccion;datatype:string,name:IdProntuarioTipo;datatype:int,name:ProntuarioNro;datatype:int,name:Observaciones;datatype:blob" />
+	<infoitem key="UD_Padron" value="name:IdProntuarioTipo;datatype:int,name:ProntuarioTipo;datatype:string" />
+	<infoitem key="UD_Solicitud" value="name:id_solicitud;datatype:int,name:dni;datatype:string,name:apellido;datatype:string,name:nombre;datatype:string,name:genero;datatype:string,name:tipo_prontuario;datatype:int,name:prontuario;datatype:string,name:nro_certificado;datatype:string,name:estado_solicitud;datatype:string,name:fecha_solicitada;datatype:date,name:hora_solicitada;datatype:time,name:solicitado_por;datatype:string,name:capitalinterior;datatype:string,name:intervino;datatype:string,name:usuario;datatype:string,name:ip_solicitante;datatype:string,name:ip_confeccion;datatype:string" />
+</info>

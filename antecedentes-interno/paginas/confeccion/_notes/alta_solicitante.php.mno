@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_TipoProntuario" value="name:IdProntuarioTipo;datatype:int,name:ProntuarioTipo;datatype:string" />
+	<infoitem key="UD_IdPais" value="name:IdPais;datatype:int,name:Pais;datatype:string" />
+	<infoitem key="UD_Padron" value="name:DocumentoNro;datatype:int" />
+</info>

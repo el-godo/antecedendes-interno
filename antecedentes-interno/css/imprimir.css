@@ -1,0 +1,39 @@
+/* CSS Document */
+
+#sidebar, #nav, #top, #footer, #imp, head {
+  display: none !important;
+}
+
+body, #sidebar, #nav, #top {
+  float: none !important;
+  width: auto !important;
+  margin:  0 !important;
+  padding: 0 !important;
+}
+
+body {
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	line-height: 150%;
+}
+
+.titulo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+.contenido {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #333;
+	font-size: 12px;
+	text-align: justify;
+}
+
+.subrayado {
+	text-decoration: underline;
+	font-weight: bold;
+}

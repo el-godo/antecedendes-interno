@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Dependencia" value="name:id_dependencia;datatype:int,name:descripciondependencia;datatype:string" />
+	<infoitem key="UD_Usuario" value="name:id_usuario;datatype:int,name:nombre;datatype:string,name:usuario;datatype:string,name:contrasena;datatype:string,name:dni;datatype:string,name:tipo;datatype:string,name:id_dependencia;datatype:int" />
+</info>

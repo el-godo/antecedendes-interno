@@ -1,0 +1,4 @@
+"name","type"
+"id","INT"
+"nro_certificado","INT"
+"anio","VARCHAR(10)"

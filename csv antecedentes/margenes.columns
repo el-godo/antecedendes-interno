@@ -1,0 +1,4 @@
+"name","type"
+"id","INT"
+"izquierdo","DECIMAL(2, 1)"
+"superior","DECIMAL(2, 1)"
